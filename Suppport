@@ -1,0 +1,23 @@
+
+	CMD
+	
+Star Wars
+	telnet towel.blinkenlights.nl
+
+Diretórios segurança
+
+	ocultando diretório > Atrrib +h +s +r Nome diretório
+	exibindo diretório > Attrib -h -s -r Nome diretório
+
+listando programas instalados
+	wmic product get name
+
+Desinstalando produto
+	wmic product where "name nome" call uninstall /nointeractive
+
+
+Abrir CMD no diretório
+	Abre o windows explorer e no destino, na barra de endereços digita CMD
+
+Lista interna
+	no CMD > F7
