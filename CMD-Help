@@ -1,0 +1,13 @@
+Instala agente Zabbix
+ C:\Zabbix\zabbix_agentd.exe -i -c C:\Zabbix\zabbix_agentd.conf
+ 
+ Renomeia estação
+ WMIC computersystem where caption='current_pc_name' rename new_pc_name
+ 
+ Formata com diskpart
+ Diskpart > list disk > select disk > clean > create partition primary > active > format fs=fat32 quick > assign 
+ 
+ Telnet Starwars
+ Telnet Towel.blinkenlights.nl
+ 
+ 
