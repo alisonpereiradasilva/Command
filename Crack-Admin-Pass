@@ -1,4 +1,6 @@
 Crack Password com Kali
+root
+toor
 
 - fdisk -L
 - mount /dev/sda2/ /mnt/
